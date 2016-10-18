@@ -1,8 +1,11 @@
 package com.theironyard;
 
+import spark.Spark;
+
 public class Main {
 
     public static void main(String[] args) {
-	// Watchu talkin bout Willis
+        Spark.externalStaticFileLocation("public");
+        Spark.init();
     }
 }
