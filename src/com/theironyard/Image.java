@@ -1,7 +1,7 @@
 package com.theironyard;
 
 /**
- * Created by zach on 10/18/16.
+ * This is not a comment
  */
 public class Image {
     int id;
